@@ -1,6 +1,18 @@
 * {
   transition: 0.3s all ease;
 }
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("assets/fonts/HelveticaNeue\ Medium.ttf");
+}
+@font-face {
+  font-family: HelveticaNeueLight;
+  src: url("assets/fonts/HelveticaNeue\ Light.ttf");
+}
+
+h1 {
+  font-family: HelveticaNeue;
+}
 .center {
   display: flex;
   justify-content: center;
@@ -19,6 +31,7 @@ ul li {
   color: #00b9ad; /* Change the color */
 }
 ul li h1 {
+  font-family: HelveticaNeueLight;
   color: #454545;
 }
 p {
