@@ -1,0 +1,35 @@
+* {
+  transition: 0.3s all ease;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  list-style: none; /* Remove default bullets */
+}
+ul li {
+  font-size: larger;
+  margin: 10px 0;
+  color: #00b9ad; /* Change the color */
+}
+ul li h1 {
+  color: #454545;
+}
+p {
+  color: #454545;
+  font-size: larger;
+}
+
+@media only screen and (max-width: 600px) {
+  ul li,
+  p {
+    font-size: medium;
+    margin: 5px 0;
+  }
+}
